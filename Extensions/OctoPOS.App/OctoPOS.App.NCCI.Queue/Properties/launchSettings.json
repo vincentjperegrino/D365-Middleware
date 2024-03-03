@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NCCI.Queue": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7107"
+    }
+  }
+}

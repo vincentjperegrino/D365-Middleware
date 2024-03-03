@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NCCI.Dipatcher": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7109"
+    }
+  }
+}

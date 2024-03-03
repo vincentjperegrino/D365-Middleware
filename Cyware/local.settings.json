@@ -1,0 +1,34 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=ktimoostorage;AccountKey=2bobbq72sp+aqWGx4f1S0yBMplnrqnc0rfcgOb3JTdVAiyAO3OmPPS/s61umC2/OsV/8t8mGF2KJBB3B8O3mcQ==;EndpointSuffix=core.windows.net",
+    "AzureQueueConnectionString": "DefaultEndpointsProtocol=https;AccountName=ktimoostorage;AccountKey=2bobbq72sp+aqWGx4f1S0yBMplnrqnc0rfcgOb3JTdVAiyAO3OmPPS/s61umC2/OsV/8t8mGF2KJBB3B8O3mcQ==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    //"AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    //"FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "CompanyID": "3392",
+    "config_rootfolder": "/files/",
+    "config_host": "royalsftp.socialwifi.tv",
+    "config_port": 22,
+    "config_username": "testadmin",
+    "config_password": "cyware@123"
+  }
+  //"3388": {
+  //  "host": "royalsftp.socialwifi.tv",
+  //  "port": "",
+  //  "username": "testadmin",
+  //  "password": "cyware@123"
+  //},
+  //"3392": {
+  //  "host": "royalsftp.socialwifi.tv",
+  //  "port": "",
+  //  "username": "testadmin",
+  //  "password": "cyware@123"
+  //},
+  //"3393": {
+  //  "host": "royalsftp.socialwifi.tv",
+  //  "port": "",
+  //  "username": "testadmin",
+  //  "password": "cyware@123"
+  //}
+}

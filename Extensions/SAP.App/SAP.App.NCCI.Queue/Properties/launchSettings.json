@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SAP.App.NCCI.Queue": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7156",
+      "launchBrowser": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Magento.App.NCCI.Queue": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7158",
+      "launchBrowser": false
+    }
+  }
+}

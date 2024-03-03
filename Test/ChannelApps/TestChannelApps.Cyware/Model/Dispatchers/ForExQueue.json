@@ -1,0 +1,5 @@
+{
+  "Action": "Create",
+  "Body": "{\"RateTypeName\":\"Standard\",\"FromCurrency\":\"USD\",\"ToCurrency\":\"EUR\",\"StartDate\":\"2022-01-01T00:00:00\",\"Rate\":1.2345,\"EndDate\":\"2022-12-31T00:00:00\",\"ConversionFactor\":\"1.0\",\"RateTypeDescription\":\"Standard rate type\",\"moosourcesystem\":\"SourceSystem\",\"mooexternalid\":\"ExternalID\",\"companyid\":1001}",
+  "QueueDateTime": "2023-06-13T08:02:30.201611Z"
+}

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>KTI.Moo.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ChannelApps.Model.RDF\ChannelApps.Model.RDF.csproj" />
+    <ProjectReference Include="..\..\Cyware\Cyware.csproj" />
+    <ProjectReference Include="..\..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\Moo\Moo.csproj" />
+    <ProjectReference Include="..\..\Extensions.Cyware.App.Receiver\Extensions.Cyware.App.Receiver.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Magento.App.Queue.Dev": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7129",
+      "launchBrowser": false
+    }
+  }
+}

@@ -1,0 +1,68 @@
+trigger:
+- dev_jim
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  buildConfiguration: 'Release'
+  System.Debug: true
+  project: '**/*TestShopify*/*.csproj'
+
+steps:
+- checkout: self
+
+- script: |
+    # Use .NET SDK 6.x
+    dotnet --list-sdks
+    dotnet --list-runtimes
+    echo '{"sdk": {"version": "6.0.100" }}' > global.json  # Set the desired SDK version
+    export DOTNET_ROOT="$HOME/.dotnet"
+  displayName: 'Use .NET SDK 6.x'
+
+- task: NuGetToolInstaller@1
+  displayName: 'Use NuGet 5.8'
+  inputs:
+    versionSpec: '5.8.x'
+    checkLatest: true
+
+- script: |
+    # Download and install .NET SDK 6.0.100 if not already installed
+    DOTNET_VERSION="6.0.100"
+    if [[ ! -d "$DOTNET_ROOT/sdk/$DOTNET_VERSION" ]]; then
+      curl -SL --output dotnet-install.sh https://dot.net/v1/dotnet-install.sh
+      chmod +x dotnet-install.sh
+      ./dotnet-install.sh --version $DOTNET_VERSION --install-dir $DOTNET_ROOT
+      rm dotnet-install.sh
+    fi
+  displayName: 'Install .NET SDK 6.0.100'
+
+- task: UseDotNet@2
+  displayName: 'Use .NET SDK 6.0.100'
+  inputs:
+    packageType: 'sdk'
+    version: '6.0.100'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Restore project dependencies'
+  inputs:
+    command: 'restore'
+    projects: '**/*TestShopify*/*.csproj'
+
+
+- task: DotNetCoreCLI@2
+  displayName: 'Build the project - Release'
+  inputs:
+    command: 'build'
+    arguments: '--no-restore --configuration $(buildConfiguration) /p:verbosity=diagnostic'
+    projects: '**/*TestShopify*/*.csproj'
+
+
+- task: DotNetCoreCLI@2
+  displayName: 'Run unit tests - $(buildConfiguration)'
+  inputs:
+    command: 'test'
+    arguments: '--no-build --configuration $(buildConfiguration) --logger console;verbosity=detailed'
+    publishTestResults: true
+    projects: '**/*TestShopify*/*.csproj'
+  timeoutInMinutes: 30

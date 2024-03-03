@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.2.9" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Moq" Version="4.18.2" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.1.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Moo.CRM\Moo.CRM.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties order_1json__JsonSchema="{&quot;companyid&quot;:3388,&quot;domainType&quot;:&quot;order&quot;,&quot;kti_UpsertOrder_CustomerParameters&quot;:{&quot;@odata.type&quot;:&quot;#Microsoft.Dynamics.CRM.expando&quot;,&quot;address1_city&quot;:&quot;Pasig City&quot;,&quot;address1_country&quot;:&quot;PH&quot;,&quot;address1_line1&quot;:&quot;218 camia street Villa Sta. Ana&quot;,&quot;address1_postalcode&quot;:&quot;1600&quot;,&quot;address1_telephone1&quot;:&quot;09167407532&quot;,&quot;address2_city&quot;:&quot;218 camia street Villa Sta. Ana&quot;,&quot;address2_line1&quot;:&quot;San Miguel Pasig City&quot;,&quot;address2_postalcode&quot;:&quot;1600&quot;,&quot;address2_telephone1&quot;:&quot;09167407532&quot;,&quot;emailaddress1&quot;:&quot;dbalmazan@novateur.ph&quot;,&quot;telephone1&quot;:&quot;09167407532&quot;,&quot;telephone2&quot;:&quot;09167407532&quot;,&quot;kti_socialchannelorigin&quot;:959080010,&quot;kti_sourceid&quot;:&quot;281991&quot;,&quot;kti_magentoid&quot;:&quot;281991&quot;,&quot;contactid&quot;:&quot;6dd944ba-8e1f-ed11-b83e-000d3a8197f5&quot;,&quot;firstname&quot;:&quot;Dianne&quot;,&quot;lastname&quot;:&quot;Almazan&quot;,&quot;mobilephone&quot;:&quot;09167407532&quot;},&quot;kti_UpsertOrder_OrderParameters&quot;:{&quot;@odata.type&quot;:&quot;#Microsoft.Dynamics.CRM.expando&quot;,&quot;kti_socialchannelorigin&quot;:959080010,&quot;name&quot;:&quot;000000296&quot;,&quot;billto_city&quot;:&quot;218 camia street Villa Sta. Ana&quot;,&quot;billto_contactname&quot;:&quot;Dianne Almazan&quot;,&quot;billto_country&quot;:&quot;PH&quot;,&quot;billto_line1&quot;:&quot;San Miguel Pasig City&quot;,&quot;billto_name&quot;:&quot;billing&quot;,&quot;billto_postalcode&quot;:&quot;1600&quot;,&quot;billto_telephone&quot;:&quot;09167407532&quot;,&quot;description&quot;:&quot;Free Shipping - Free&quot;,&quot;emailaddress&quot;:&quot;dbalmazan@novateur.ph&quot;,&quot;kti_sourceid&quot;:&quot;115778&quot;,&quot;kti_couponcode&quot;:&quot;VERTUOiYI4&quot;,&quot;kti_paymenttermscode&quot;:959080015,&quot;shipto_city&quot;:&quot;218 camia street Villa Sta. Ana&quot;,&quot;shipto_contactname&quot;:&quot;Dianne Almazan&quot;,&quot;shipto_country&quot;:&quot;PH&quot;,&quot;shipto_line1&quot;:&quot;San Miguel Pasig City&quot;,&quot;shipto_name&quot;:&quot;shipping&quot;,&quot;shipto_postalcode&quot;:&quot;1600&quot;,&quot;shipto_telephone&quot;:&quot;09167407532&quot;,&quot;statuscode&quot;:959080000,&quot;overriddencreatedon&quot;:&quot;2023-01-24T00:56:00&quot;},&quot;kti_UpsertOrder_OrderLineParameters&quot;:[{&quot;productid&quot;:&quot;STORMIO&quot;,&quot;@odata.type&quot;:&quot;#Microsoft.Dynamics.CRM.expando&quot;,&quot;kti_socialchannelorigin&quot;:959080010,&quot;ispriceoverridden&quot;:true,&quot;manualdiscountamount&quot;:0.0,&quot;priceperunit&quot;:48.21428571,&quot;productdescription&quot;:&quot;STORMIO&quot;,&quot;quantity&quot;:50.0,&quot;shipto_city&quot;:&quot;218 camia street Villa Sta. Ana&quot;,&quot;shipto_contactname&quot;:&quot;Dianne Almazan&quot;,&quot;shipto_country&quot;:&quot;PH&quot;,&quot;shipto_line1&quot;:&quot;San Miguel Pasig City&quot;,&quot;shipto_name&quot;:&quot;shipping&quot;,&quot;shipto_postalcode&quot;:&quot;1600&quot;,&quot;shipto_telephone&quot;:&quot;09167407532&quot;,&quot;tax&quot;:289.28571450,&quot;kti_lineitemnumber&quot;:&quot;1&quot;,&quot;kti_sourceid&quot;:&quot;115778&quot;},{&quot;productid&quot;:&quot;MAC0069-1&quot;,&quot;@odata.type&quot;:&quot;#Microsoft.Dynamics.CRM.expando&quot;,&quot;kti_socialchannelorigin&quot;:959080010,&quot;ispriceoverridden&quot;:true,&quot;manualdiscountamount&quot;:2000.0,&quot;priceperunit&quot;:14732.14285714,&quot;productdescription&quot;:&quot;VERTUO NEXT CHERRY RED&quot;,&quot;quantity&quot;:1.0,&quot;tax&quot;:1767.85714286,&quot;kti_lineitemnumber&quot;:&quot;2&quot;,&quot;kti_sourceid&quot;:&quot;115778&quot;},{&quot;productid&quot;:&quot;ACC0212&quot;,&quot;@odata.type&quot;:&quot;#Microsoft.Dynamics.CRM.expando&quot;,&quot;kti_socialchannelorigin&quot;:959080010,&quot;ispriceoverridden&quot;:true,&quot;manualdiscountamount&quot;:0.0,&quot;priceperunit&quot;:0.0,&quot;productdescription&quot;:&quot;FREE - VERTUO WELCOME COFFEE SET&quot;,&quot;quantity&quot;:1.0,&quot;shipto_city&quot;:&quot;218 camia street Villa Sta. Ana&quot;,&quot;shipto_contactname&quot;:&quot;Dianne Almazan&quot;,&quot;shipto_country&quot;:&quot;PH&quot;,&quot;shipto_line1&quot;:&quot;San Miguel Pasig City&quot;,&quot;shipto_name&quot;:&quot;shipping&quot;,&quot;shipto_postalcode&quot;:&quot;1600&quot;,&quot;shipto_telephone&quot;:&quot;09167407532&quot;,&quot;tax&quot;:0.0,&quot;kti_lineitemnumber&quot;:&quot;3&quot;,&quot;kti_sourceid&quot;:&quot;115778&quot;}]}" /></VisualStudio></ProjectExtensions>
+
+</Project>

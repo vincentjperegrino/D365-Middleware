@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Operation.OctoPOS.App": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7142",
+      "launchBrowser": false
+    }
+  }
+}

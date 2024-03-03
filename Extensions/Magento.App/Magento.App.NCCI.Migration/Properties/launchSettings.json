@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Magento.App.NCCI.Migration": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7041",
+      "launchBrowser": false
+    }
+  }
+}

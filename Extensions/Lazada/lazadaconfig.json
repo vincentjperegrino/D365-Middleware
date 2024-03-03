@@ -1,0 +1,11 @@
+{
+  "LazadaConfig": {
+    "AppKey": "105046",
+    "AppSecret": "sGFdQUXMsPZ9PSU3fPk8s8pQbXoAPM5N",
+    "MaxRetries": 4,
+    "BaseSourceUrl": "https://sellercenter.lazada.com.ph/order/detail",
+    "DefaultCountry": "ph",
+    "RedisConnectionString": "ktimooextensiontokens.redis.cache.windows.net:6380,password=JMovvX2JQ3kKxmsHpB12tjnrfL4Thuv1eAzCaHQikCs=,ssl=True,abortConnect=False",
+    "MaxPaginationInFinanceAPI": 500
+  }
+}

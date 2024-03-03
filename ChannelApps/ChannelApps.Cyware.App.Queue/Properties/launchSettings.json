@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ChannelApps.Cyware.App.Queue": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7021",
+      "launchBrowser": false
+    }
+  }
+}

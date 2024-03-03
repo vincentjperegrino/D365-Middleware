@@ -1,0 +1,53 @@
+﻿using Azure.Storage.Queues;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KTI.Moo.ChannelApps.Model.RDF.Dispatchers
+{
+    public class DiscountLocation : Core.Domain.Dispatchers.IDiscountLocationToQueue
+    {
+        public bool DispatchMessage(string messagequeue, string QueueName, string QueueConnectionString, string CompanyID)
+        {
+            var TenderTypeObject = JsonConvert.DeserializeObject<Extensions.Cyware.Model.DiscountLocation>(messagequeue);
+
+            if (TenderTypeObject == null)
+            {
+                return false;
+            }
+
+            return SendMessageToQueue(TenderTypeObject, QueueName, QueueConnectionString);
+        }
+
+
+        private static bool SendMessageToQueue(object TenderTypeModel, string QueueName, string ConnectionString)
+        {
+            var Json = GetJsonForMessageQueue(TenderTypeModel);
+
+            QueueClient queueClient = new QueueClient(ConnectionString, QueueName, new QueueClientOptions
+            {
+                MessageEncoding = QueueMessageEncoding.Base64
+            });
+
+            queueClient.CreateIfNotExists();
+            queueClient.SendMessage(Json);
+
+            return true;
+        }
+
+        private static string GetJsonForMessageQueue(object TenderTypeModel)
+        {
+            var settings = new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore,
+                DefaultValueHandling = DefaultValueHandling.Ignore
+            };
+
+            var Json = JsonConvert.SerializeObject(TenderTypeModel, Formatting.None, settings);
+            return Json;
+        }
+    }
+}

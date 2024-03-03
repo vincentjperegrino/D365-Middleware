@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KTI.Moo.Extensions.Lazada.Model.DTO.Fulfillments.ReadyToShips;
+
+public class ResultData
+{
+    public virtual List<ReadyToShipPackageDTO> packages { get; set; }
+}

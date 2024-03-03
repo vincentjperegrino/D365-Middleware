@@ -1,0 +1,9 @@
+{
+  "ncci_config": {
+    "username": "nova-admin",
+    "password": "passw0rd",
+    "defaultURL": "https://novateurdev.argomall.ph/rest/default/V1",
+    "redisConnectionString": "ktimooextensiontokens.redis.cache.windows.net:6380,password=JMovvX2JQ3kKxmsHpB12tjnrfL4Thuv1eAzCaHQikCs=,ssl=True,abortConnect=False"
+  }
+
+}

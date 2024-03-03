@@ -1,0 +1,10 @@
+{
+  "ncci_config": {
+    "username": "NESPRESSOTEST",
+    "password": "XHTMgtXRTZ",
+    "apiAuth": "MTAyMTk3MTgwNjE5MDQ1MTM3MDcwNTExMDE5NzQ5MDk2OTA1ODk3NQ==,MTIxNTAxNTMwOTE3MTA5Mzk5MDg5MTY0NTA2Njk2MDcyODMwMjY0NQ==",
+    "defaultURL": "http://202.148.162.33:8080/NESPRESSOTEST/api.orm/1.0",
+    "redisConnectionString": "ktimooextensiontokens.redis.cache.windows.net:6380,password=JMovvX2JQ3kKxmsHpB12tjnrfL4Thuv1eAzCaHQikCs=,ssl=True,abortConnect=False",
+    "companyid": "3388"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "Action": "Create",
+  "Body": "{\"CategoryHierarchy\":1,\"ChangeStatus\":0,\"Code\":\"ABC123\",\"DefaultProjectGlobalCategory\":2,\"DefaultThreshold_PSN\":10.99,\"InstanceRelationType\":1,\"IsActive\":1,\"IsCategoryAttributesInherited\":0,\"IsTangible\":1,\"Level\":2,\"Name\":\"Category Name\",\"NestedSetLeft\":3,\"NestedSetRight\":4,\"ParentCategory\":0,\"PKWiUCode\":123456,\"SharedCategory_CategoryId\":\"Shared123\",\"EcoResCategoryHierarchy_Name\":\"EcoRes Hierarchy\",\"EcoResCategory1_CategoryHierarchy\":5,\"EcoResCategory1_Name\":\"EcoRes Category\",\"EcoResCategoryHierarchy1_Name\":\"EcoRes Hierarchy 1\",\"AxRecId\":987654,\"moosourcesystem\":\"SourceSystem\",\"mooexternalid\":\"ExternalID\",\"companyid\":1001}",
+  "QueueDateTime": "2023-06-13T08:02:30.201611Z"
+}

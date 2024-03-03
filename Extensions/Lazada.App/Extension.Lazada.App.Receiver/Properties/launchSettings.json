@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Extension.Lazada.App.Receiver": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7025",
+      "launchBrowser": false
+    }
+  }
+}

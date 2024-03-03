@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "extensions": {
+    "queues": {
+      "batchSize": 1,
+      "maxDequeueCount": 6,
+      "maxPollingInterval" : ""
+    }
+  },
+  "retry": {
+    "strategy": "exponentialBackoff",
+    "maxRetryCount": 5,
+    "minimumInterval": "00:00:02",
+    "maximumInterval": "00:03:00",
+    "deltaBackoff": "00:00:05"
+  }
+}

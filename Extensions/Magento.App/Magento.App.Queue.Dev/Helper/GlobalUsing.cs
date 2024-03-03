@@ -1,0 +1,10 @@
+﻿global using KTI.Moo.Extensions.Magento.App.Queue.Dev.Helper;
+global using System;
+global using Newtonsoft.Json;
+global using System.Collections.Generic;
+global using System.Linq;
+global using Azure.Storage.Queues;
+global using KTI.Moo.Extensions.Magento.Service;
+global using Microsoft.Azure.WebJobs;
+global using Microsoft.Extensions.Logging;
+global using KTI.Moo.Extensions.Core.Helper;

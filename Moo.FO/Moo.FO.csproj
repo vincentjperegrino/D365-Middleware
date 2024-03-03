@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Extensions.Cyware.App.Receiver\Extensions.Cyware.App.Receiver.csproj" />
+    <ProjectReference Include="..\Moo.Base\Moo.Base.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Origin.Core.Inventory">
+			<HintPath>..\Origin DLL\Origin.Core.Inventory.dll</HintPath>
+		</Reference>
+		<Reference Include="Origin.Ore.Exception">
+			<HintPath>..\Origin DLL\Origin.Ore.Exception.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

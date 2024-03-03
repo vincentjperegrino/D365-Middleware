@@ -1,0 +1,5 @@
+{
+  "Action": "Create",
+  "Body": "{\"dataAreaId\":\"ABC123\",\"RecordId\":123456789,\"PriceApplicableFromDate\":\"2023-08-14T10:00:00Z\",\"WillSearchContinue\":\"Yes\",\"SalesPriceQuantity\":100.5,\"QuantityUnitySymbol\":\"pcs\",\"ProductNumber\":\"PROD123\",\"AttributeBasedPricingId\":\"ATTR456\",\"ProductSizeId\":\"SIZE789\",\"ItemNumber\":\"ITEM001\",\"ProductVersionId\":\"VER001\",\"PriceCurrencyCode\":\"USD\",\"ToQuantity\":200.0,\"FixedPriceCharges\":15.75,\"WillDeliveryDateControlDisregardLeadTime\":\"No\",\"PriceApplicableToDate\":\"2023-08-31T10:00:00Z\",\"PriceWarehouseId\":\"WH123\",\"SalesLeadTimeDays\":7,\"FromQuantity\":50.0,\"CustomerAccountNumber\":\"CUST456\",\"PriceCustomerGroupCode\":\"GRP789\",\"Price\":150.99,\"PriceSiteId\":\"SITE001\",\"IsGenericCurrencySearchEnabled\":\"Yes\",\"ProductColorId\":\"COLOR007\",\"ProductconfigurationId\":\"CONF123\",\"ProductStyleId\":\"STYLE456\",\"moosourcesystem\":\"SystemA\",\"mooexternalid\":\"ExternalID123\",\"companyid\":789}",
+  "QueueDateTime": "2023-06-13T08:02:30.201611Z"
+}

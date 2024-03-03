@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Extensions.Cyware.App.Receiver": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7280",
+      "launchBrowser": false
+    }
+  }
+}

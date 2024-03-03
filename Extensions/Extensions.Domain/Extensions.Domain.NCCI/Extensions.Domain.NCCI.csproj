@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>KTI.Moo.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Magento\Magento.csproj" />
+    <ProjectReference Include="..\..\OctoPOS\OctoPOS.csproj" />
+    <ProjectReference Include="..\..\SAP\SAP.csproj" />
+  </ItemGroup>
+
+</Project>

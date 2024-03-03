@@ -1,0 +1,5 @@
+{
+  "Action": "Create",
+  "Body": "{\"dataAreaId\":\"US\",\"RecordId\":123456789,\"PriceApplicableFromDate\":\"2022-01-01T00:00:00\",\"WillSearchContinue\":\"Yes\",\"SalesPriceQuantity\":10.5,\"QuantityUnitySymbol\":\"pcs\",\"ProductNumber\":\"P123\",\"AttributeBasedPricingId\":\"ABC\",\"ProductSizeId\":\"Size1\",\"ItemNumber\":\"I123\",\"ProductVersionId\":\"V1\",\"PriceCurrencyCode\":\"USD\",\"ToQuantity\":100,\"FixedPriceCharges\":5.99,\"WillDeliveryDateControlDisregardLeadTime\":\"No\",\"PriceApplicableToDate\":\"2022-12-31T00:00:00\",\"PriceWarehouseId\":\"WH001\",\"SalesLeadTimeDays\":7,\"FromQuantity\":50,\"CustomerAccountNumber\":\"Cust123\",\"PriceCustomerGroupCode\":\"GroupA\",\"Price\":9.99,\"PriceSiteId\":\"Site001\",\"IsGenericCurrencySearchEnabled\":\"Yes\",\"ProductColorId\":\"Color1\",\"ProductconfigurationId\":\"Config1\",\"ProductStyleId\":\"Style1\",\"moosourcesystem\":\"SourceSystem\",\"mooexternalid\":\"ExternalID\",\"companyid\":1001}",
+  "QueueDateTime": "2023-06-13T08:02:30.201611Z"
+}

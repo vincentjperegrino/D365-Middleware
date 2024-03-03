@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ChannelApps.Lazada.App.Receiver": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7195",
+      "launchBrowser": false
+    }
+  }
+}

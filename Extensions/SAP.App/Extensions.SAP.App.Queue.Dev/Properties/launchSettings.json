@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Extensions.SAP.App.Queue.Dev": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7073",
+      "launchBrowser": false
+    }
+  }
+}

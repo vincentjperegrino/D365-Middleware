@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ChannelApps.OctoPOS.App.Receiver": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7071",
+      "launchBrowser": false
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "Action": "Create",
+  "Body": "{\"BarCode\":\"829274502252\",\"BarCodeSetupId\":\"UPC-A\",\"IsDefaultDisplayedBarcode\":\"No\",\"IsDefaultPrintedBarcode\":\"No\",\"IsDefaultScannedBarcode\":\"No\",\"ItemNumber\":\"865268\",\"ProductColorId\":\"\",\"ProductConfigurationId\":\"\",\"ProductDescription\":\"MEOW MIX DRY CAT FOOD ORIGINAL CHOICE 16LBS\",\"ProductQuantityUnitSymbol\":\"ea\",\"ProductSizeId\":\"\",\"ProductStyleId\":\"\",\"ProductVersionId\":\"\",\"moosourcesystem\":\"D365FO\",\"mooexternalid\":null,\"companyid\":0}",
+  "QueueDateTime": "2023-06-13T08:02:30.201611Z"
+}

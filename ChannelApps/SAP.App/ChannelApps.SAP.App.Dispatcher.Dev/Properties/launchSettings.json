@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ChannelApps.SAP.App.Dispatcher.Dev": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7290",
+      "launchBrowser": false
+    }
+  }
+}

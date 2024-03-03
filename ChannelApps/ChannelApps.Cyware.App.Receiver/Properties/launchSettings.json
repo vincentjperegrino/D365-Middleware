@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ChannelApps.Cyware.App.Receiver": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7299",
+      "launchBrowser": false
+    }
+  }
+}

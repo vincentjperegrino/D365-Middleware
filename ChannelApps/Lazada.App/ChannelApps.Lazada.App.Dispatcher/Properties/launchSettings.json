@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ChannelApps.Lazada.App.Dispatcher": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7294",
+      "launchBrowser": false
+    }
+  }
+}

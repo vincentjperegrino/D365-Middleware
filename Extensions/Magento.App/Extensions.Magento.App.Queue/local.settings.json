@@ -1,0 +1,26 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=ktimoostoragencci;AccountKey=ToNHaXe9NF8YkwGA3u7Ec5we8Ykf2fI6bRdBOml3Xmnv2AW8KwMNhQRkh0v4Cl7ccSkygk3JU6wt+AStFfpjkw==;EndpointSuffix=core.windows.net",
+    "AzureQueueConnectionString": "DefaultEndpointsProtocol=https;AccountName=ktimoostoragencci;AccountKey=ToNHaXe9NF8YkwGA3u7Ec5we8Ykf2fI6bRdBOml3Xmnv2AW8KwMNhQRkh0v4Cl7ccSkygk3JU6wt+AStFfpjkw==;EndpointSuffix=core.windows.net",
+    "config_username": "jing-admin1",
+    "config_password": "Passw0rd",
+    "config_defaultURL": "https://nespresso.ph/rest/default/V1",
+    "config_redisConnectionString": "ktimooextensiontokens.redis.cache.windows.net:6380,password=JMovvX2JQ3kKxmsHpB12tjnrfL4Thuv1eAzCaHQikCs=,ssl=True,abortConnect=False",
+    "offsetminutes": 25,
+    "pastminutescovered": -30,
+    "pastminutescoveredCustomer": -15,
+    "pageSize": 100,
+    "CompanyID": 3389,
+    "StoreCode": "nespresso1",
+    "CustomerQueueName": "magento-customer",
+    "InvoiceQueueName": "magento-invoice",
+    "AzureWebJobs.Magento_PollCustomer.Disabled": 1,
+    "AzureWebJobs.Magento_PollOrder.Disabled": 1,
+    "AzureWebJobs.Magento_PollInvoice.Disabled": 1,
+    "AzureWebJobs.Update-Customer-Magento.Disabled": 0,
+    "AzureWebJobs.Upsert-Product-Magento.Disabled": 1,
+    "AzureWebJobs.Update-OrderStatus-Magento.Disabled": 1,
+    "ChannelCode": "nespresso1"
+  }
+}

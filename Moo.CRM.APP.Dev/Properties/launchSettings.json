@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Moo.CRM.APP.Dev": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7170",
+      "launchBrowser": false
+    }
+  }
+}

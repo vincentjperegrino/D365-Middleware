@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ChannelApps.SAP.App.Dispatcher.Retry": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7190",
+      "launchBrowser": false
+    }
+  }
+}
